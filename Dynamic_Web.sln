@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamic_Web", "Dynamic_Web\Dynamic_Web.csproj", "{747D150D-1905-4788-A9ED-0942E5DE687B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{747D150D-1905-4788-A9ED-0942E5DE687B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{747D150D-1905-4788-A9ED-0942E5DE687B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{747D150D-1905-4788-A9ED-0942E5DE687B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{747D150D-1905-4788-A9ED-0942E5DE687B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28AC0D23-5158-4AA9-8600-CED487D6C521}
+	EndGlobalSection
+EndGlobal
