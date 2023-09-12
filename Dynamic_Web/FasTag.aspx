@@ -16,10 +16,11 @@
     </div>
     <!-- Page Header End -->
         <!--fastag-->
-    <section class="container-fluid fastag_banner py-5">
+    <section class="container-fluid fastag_banner py-5" >
         <article class="row">
             <div class="col-lg-6">
-             <h1 class="head_text ms-5" runat="server" id="ftagSectionheading"></h1>
+             <h1 class="head_text ms-5" runat="server" style="text-align:center" id="ftagSectionheading"></h1>
+             <hr />
              <p class="ms-5" runat="server" id="FtagSection1content"></p>
             <a runat="server" id="FtagSection1btnlink"><button class="ms-5 blue_btn">Learn more</button></a>
             </div>
@@ -32,7 +33,7 @@
     <section class="container-fluid what_fastag">
         <article class="row">
             <div class="col-lg-6 ">
-                <asp:Image ID="FtagSection2image" runat="server" style="border-radius:0 150px 150px 0; height:500px;width :100%;display:block" />
+                <asp:Image ID="FtagSection2image" runat="server" style="height:400px;width :100%;" />
             </div>
             <div class="col-lg-6 my-4">
                 <h2 class="heading" runat="server" id="FtagSection2heading"></h2>

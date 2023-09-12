@@ -20,10 +20,11 @@
             <div class="about2-content-top">
                 <div class="row">
                     <div class="col-md-12 col-sm-12">
-                            <h2 ><strong>AEPS Service </strong></h2>
+                            <h2 style="text-align:center"><strong>AEPS Service </strong></h2>
+                        <hr />
                             <div class="row">
                                 <div class="col-lg-6 mabtbx align-self-baseline" data-aos="zoom-in" data-aos-delay="100">
-                                    <asp:Image ID="AepsSection1Image" runat="server" class="img-fluid" style="width: 100%; height:100%; margin-top:10px; margin-left:-50px;" alt="" />
+                                    <asp:Image ID="AepsSection1Image" runat="server" class="img-fluid" style="width: 100%; height:400px; margin-top:10px;" alt="" />
                                 </div>
                                 <div class="col-lg-6 pt-3 pt-lg-0 content" style="margin-top:60px;">
                                     <p class="font-italic" >
@@ -51,9 +52,7 @@
             </div>
         </div>
     </section>
-    <section class="wrapper bg-light" style="
-    margin-bottom: 0px;
-        margin-top:0px;">
+    <section class="wrapper bg-light" style="margin-bottom: 0px;margin-top:0px;">
         <div class="container pb-14 pb-md-0 mb-lg-0 mb-xl-0">
             <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center mb-14">
                 <div class="col-lg-6 position-relative">

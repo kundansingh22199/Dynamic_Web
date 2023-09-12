@@ -14,6 +14,7 @@ namespace Dynamic_Web
         ClsFastTagMaster clsFastTag = new ClsFastTagMaster();
 
         string baseurl = "https://localhost:44310";
+        //string baseurl = "http://admin.zappay.in";
         protected void Page_Load(object sender, EventArgs e)
         {
             FtagSectionGet();

@@ -14,6 +14,7 @@ namespace Dynamic_Web
     {
         ClsMainMaster clsmain = new ClsMainMaster();
         string baseurl = "https://localhost:44310";
+        //string baseurl = "http://admin.zappay.in";
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)

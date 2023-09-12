@@ -33,42 +33,6 @@ namespace Dynamic_Web
         protected global::System.Web.UI.WebControls.Image ImageSlider1;
 
         /// <summary>
-        /// slide1heading control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl slide1heading;
-
-        /// <summary>
-        /// slider1paragraph control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl slider1paragraph;
-
-        /// <summary>
-        /// slider1buttonlink1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor slider1buttonlink1;
-
-        /// <summary>
-        /// slider1buttonlink2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor slider1buttonlink2;
-
-        /// <summary>
         /// slider2Id control.
         /// </summary>
         /// <remarks>
@@ -87,42 +51,6 @@ namespace Dynamic_Web
         protected global::System.Web.UI.WebControls.Image ImageSlider2;
 
         /// <summary>
-        /// slide2heading control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl slide2heading;
-
-        /// <summary>
-        /// slider2paragraph control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl slider2paragraph;
-
-        /// <summary>
-        /// slider2buttonlink1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor slider2buttonlink1;
-
-        /// <summary>
-        /// slider2buttonlink2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor slider2buttonlink2;
-
-        /// <summary>
         /// slider3Id control.
         /// </summary>
         /// <remarks>
@@ -139,42 +67,6 @@ namespace Dynamic_Web
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Image ImageSlider3;
-
-        /// <summary>
-        /// slide3heading control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl slide3heading;
-
-        /// <summary>
-        /// slider3paragraph control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl slider3paragraph;
-
-        /// <summary>
-        /// slider3buttonlink1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor slider3buttonlink1;
-
-        /// <summary>
-        /// slider3buttonlink2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor slider3buttonlink2;
 
         /// <summary>
         /// homeSection2Heading control.

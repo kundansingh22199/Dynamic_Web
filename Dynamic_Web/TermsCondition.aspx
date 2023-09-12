@@ -17,11 +17,12 @@
     </div>
     <!-- Page Header End -->
     
-    <section class="w3l-index3" id="about">
-        <div class="midd-w3 py-5">
+    <section class="w3l-index3">
+        <div class="midd-w3 py-0">
             <div class="container py-lg-5 py-md-3">
             <div class="title-main text-center mx-auto mb-5" style="max-width:100%">
                 <h3 class="title-style">Terms & Condition</h3>
+                <hr />
             </div>
                 <div class="row">
                     <div class="col-lg-12 mb-lg-0 mb-md-5 mb-4 align-self"><br /><br />

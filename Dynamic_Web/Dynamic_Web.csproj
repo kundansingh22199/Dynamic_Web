@@ -88,7 +88,10 @@
     <Content Include="img\AEPS\home-slide-2.jpg" />
     <Content Include="img\AEPS\mission.jpg" />
     <Content Include="img\AEPS\whyImg.jpg" />
+    <Content Include="img\banner2.png" />
+    <Content Include="img\banner3.jpg" />
     <Content Include="img\footer.jpg" />
+    <Content Include="img\kks.png" />
     <Content Include="img\team-1.jpg" />
     <Content Include="img\team-2.jpg" />
     <Content Include="img\team-3.jpg" />

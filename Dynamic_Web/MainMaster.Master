@@ -112,7 +112,7 @@
 
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
-            <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <a href="#" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
                 <asp:Image ID="imglogo" runat="server" alt="logo" Style="width: 135px; height: 70px; border-radius: 10px" />
             </a>
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -270,7 +270,7 @@
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
     </form>
-    <script type="text/javascript">
+    <%--<script type="text/javascript">
         // Disable right-click
         document.addEventListener('contextmenu', (e) => e.preventDefault());
 
@@ -289,6 +289,6 @@
             )
                 return false;
         };
-    </script>
+    </script>--%>
 </body>
 </html>

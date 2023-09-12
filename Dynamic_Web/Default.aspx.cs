@@ -12,6 +12,7 @@ namespace Dynamic_Web
     public partial class Default : System.Web.UI.Page
     {
         string baseurl = "https://localhost:44310";
+        //string baseurl = "http://admin.zappay.in";
         ClsSliderMaster clsSlider = new ClsSliderMaster();
         ClsTeamMaster clsTeam = new ClsTeamMaster();
         ClsWhyUsMaster clsWhy = new ClsWhyUsMaster();
@@ -80,42 +81,42 @@ namespace Dynamic_Web
                     // **************************** Slider first ***************************************
                     string RevertUrl = imgUrlslide1img.Replace("~", "");
                     ImageSlider1.ImageUrl = baseurl + RevertUrl;
-                    slide1heading.InnerText = dt.Rows[0]["sliderHeading1"].ToString();
-                    slider1paragraph.InnerText = dt.Rows[0]["sliderContent1"].ToString();
-                    slider1buttonlink1.HRef = dt.Rows[0]["sliderButton1link1"].ToString();
-                    slider1buttonlink2.HRef = dt.Rows[0]["sliderButton2link1"].ToString();
+                    //slide1heading.InnerText = dt.Rows[0]["sliderHeading1"].ToString();
+                    //slider1paragraph.InnerText = dt.Rows[0]["sliderContent1"].ToString();
+                    //slider1buttonlink1.HRef = dt.Rows[0]["sliderButton1link1"].ToString();
+                    //slider1buttonlink2.HRef = dt.Rows[0]["sliderButton2link1"].ToString();
                     // **************************** Slider Second ***************************************
                     string imgUrlslide2img = dt.Rows[0]["sliderImage2"].ToString();
                     ImageSlider2.ImageUrl = baseurl + imgUrlslide2img.Replace("~", "");
-                    slide2heading.InnerText = dt.Rows[0]["sliderHeading2"].ToString();
-                    slider2paragraph.InnerText = dt.Rows[0]["sliderContent2"].ToString();
-                    slider2buttonlink1.HRef = dt.Rows[0]["sliderButton1link2"].ToString();
-                    slider2buttonlink2.HRef = dt.Rows[0]["sliderButton2link2"].ToString();
+                    //slide2heading.InnerText = dt.Rows[0]["sliderHeading2"].ToString();
+                    //slider2paragraph.InnerText = dt.Rows[0]["sliderContent2"].ToString();
+                    //slider2buttonlink1.HRef = dt.Rows[0]["sliderButton1link2"].ToString();
+                    //slider2buttonlink2.HRef = dt.Rows[0]["sliderButton2link2"].ToString();
                     //======================================= slide3=======================================
                     string slide2image = baseurl + dt.Rows[0]["sliderImage3"].ToString();
                     ImageSlider3.ImageUrl = slide2image.Replace("~", "");
-                    slide3heading.InnerText = dt.Rows[0]["sliderHeading3"].ToString();
-                    slider3paragraph.InnerHtml = dt.Rows[0]["sliderContent3"].ToString();
-                    slider3buttonlink1.HRef = dt.Rows[0]["sliderButton1link3"].ToString();
-                    slider3buttonlink2.HRef = dt.Rows[0]["sliderButton2link3"].ToString();
+                    //slide3heading.InnerText = dt.Rows[0]["sliderHeading3"].ToString();
+                    //slider3paragraph.InnerHtml = dt.Rows[0]["sliderContent3"].ToString();
+                    //slider3buttonlink1.HRef = dt.Rows[0]["sliderButton1link3"].ToString();
+                    //slider3buttonlink2.HRef = dt.Rows[0]["sliderButton2link3"].ToString();
                 }
                 else
                 {
                     ImageSlider1.ImageUrl = "img/carousel1.png";
                     ImageSlider2.ImageUrl = "img/carousel2.png";
                     ImageSlider3.ImageUrl = "mg/carousel2.png";
-                    slide1heading.InnerText = "DMT";
-                    slide2heading.InnerText = "BBPS";
-                    slide3heading.InnerText = "AEPS";
-                    slider1paragraph.InnerText = "Domestic Money Transfer.";
-                    slider2paragraph.InnerText = "BBPS (BHARAT BILL PAYMENT SYSTEM).";
-                    slider3paragraph.InnerHtml = "AEPS - Aadhar and Biomatric Base Payment Service.";
-                    slider1buttonlink1.HRef = "Explore More";
-                    slider1buttonlink2.HRef = "Contact us";
-                    slider2buttonlink1.HRef = "Explore More";
-                    slider2buttonlink2.HRef = "Contact us";
-                    slider3buttonlink1.HRef = "Explore More";
-                    slider3buttonlink2.HRef = "Contact us";
+                    //slide1heading.InnerText = "DMT";
+                    //slide2heading.InnerText = "BBPS";
+                    //slide3heading.InnerText = "AEPS";
+                    //slider1paragraph.InnerText = "Domestic Money Transfer.";
+                    //slider2paragraph.InnerText = "BBPS (BHARAT BILL PAYMENT SYSTEM).";
+                    //slider3paragraph.InnerHtml = "AEPS - Aadhar and Biomatric Base Payment Service.";
+                    //slider1buttonlink1.HRef = "Explore More";
+                    //slider1buttonlink2.HRef = "Contact us";
+                    //slider2buttonlink1.HRef = "Explore More";
+                    //slider2buttonlink2.HRef = "Contact us";
+                    //slider3buttonlink1.HRef = "Explore More";
+                    //slider3buttonlink2.HRef = "Contact us";
 
 
 

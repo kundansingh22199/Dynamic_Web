@@ -12,6 +12,7 @@ namespace Dynamic_Web
     public partial class About : System.Web.UI.Page
     {
         string baseurl = "https://localhost:44310";
+        //string baseurl = "http://admin.zappay.in";
         ClsTeamMaster clsTeam = new ClsTeamMaster();
         ClsWhyUsMaster clsWhy = new ClsWhyUsMaster();
         ClsAbout clsAbout = new ClsAbout();
